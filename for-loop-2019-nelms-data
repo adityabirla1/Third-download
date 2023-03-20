@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=forloop_fastqc_nelms_2019         # Job name
+#SBATCH --partition=batch              # Partition (queue) name
+#SBATCH --ntasks=1                    # Run on a single CPU
+#SBATCH --mem=50gb                     # Job memory request
+#SBATCH --time=02:00:00               # Time limit hrs:min:sec
+#SBATCH --output=nelms2019.%j.out    # Standard output log
+#SBATCH --error=nelms2019.%j.err     # Standard error log
+
+module load FastQC/0.11.9-Java-11
+
+for file in *.fastq.gz
+  do 
+    fastqc -U "$file"
+  done
+  
