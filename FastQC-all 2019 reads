@@ -9,11 +9,48 @@
 
 module spider FastQC/0.11.9-Java-11
 
-fastqc SRR7989734_1.fastq.gz
-fastqc SRR7989735_1.fastq.gz
-fastqc SRR7989736_1.fastq.gz
-fastqc SRR7989737_1.fastq.gz
-fastqc SRR7989738_1.fastq.gz
-fastqc SRR7989739_1.fastq.gz
-fastqc SRR7989740_1.fastq.gz
+fastqc SRR7989741_1.fastq.gz
+fastqc SRR7989742_1.fastq.gz
+fastqc SRR7989743_1.fastq.gz
+fastqc SRR7989744_1.fastq.gz
+fastqc SRR7989745_1.fastq.gz
+fastqc SRR7989746_1.fastq.gz
+fastqc SRR7989747_1.fastq.gz
+fastqc SRR7989748_1.fastq.gz
+fastqc SRR7989749_1.fastq.gz
+fastqc SRR7989750_1.fastq.gz
+fastqc SRR7989751_1.fastq.gz
+fastqc SRR7989752_1.fastq.gz
+fastqc SRR7989753_1.fastq.gz
+fastqc SRR7989754_1.fastq.gz
+fastqc SRR7989755_1.fastq.gz
+fastqc SRR7989756_1.fastq.gz
+fastqc SRR7989757_1.fastq.gz
+fastqc SRR7989758_1.fastq.gz
+fastqc SRR7989759_1.fastq.gz
+fastqc SRR7989760_1.fastq.gz
+fastqc SRR7989761_1.fastq.gz
+fastqc SRR7989762_1.fastq.gz
+fastqc SRR7989763_1.fastq.gz
+fastqc SRR7989764_1.fastq.gz
+fastqc SRR7989765_1.fastq.gz
+fastqc SRR7989766_1.fastq.gz
+fastqc SRR7989767_1.fastq.gz
+fastqc SRR7989768_1.fastq.gz
+fastqc SRR7989769_1.fastq.gz
+fastqc SRR7989770_1.fastq.gz
+fastqc SRR7989771_1.fastq.gz
+fastqc SRR7989772_1.fastq.gz
+fastqc SRR7989773_1.fastq.gz
+fastqc SRR7989774_1.fastq.gz
+fastqc SRR7989775_1.fastq.gz
+fastqc SRR7989776_1.fastq.gz
+fastqc SRR7989777_1.fastq.gz
+fastqc SRR7989778_1.fastq.gz
+fastqc SRR7989779_1.fastq.gz
+fastqc SRR7989780_1.fastq.gz
+fastqc SRR7989781_1.fastq.gz
+fastqc SRR7989782_1.fastq.gz
+fastqc SRR7989783_1.fastq.gz
+
 
