@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=download_nelms_2019         # Job name
+#SBATCH --partition=batch             # Partition (queue) name
+#SBATCH --ntasks=1                    # Run on a single CPU
+#SBATCH --mem=50gb                     # Job memory request
+#SBATCH --time=02:00:00               # Time limit hrs:min:sec
+#SBATCH --output=nelms2019.%j.out    # Standard output log
+#SBATCH --error=nelms2019.%j.err     # Standard error log
+
+module load SRA-Toolkit/2.11.1-centos_linux64
+
+fastq-dump --split-files --gzip SRR7989776
+fastq-dump --split-files --gzip SRR7989777
+fastq-dump --split-files --gzip SRR7989778
+fastq-dump --split-files --gzip SRR7989779
+fastq-dump --split-files --gzip SRR7989780
+fastq-dump --split-files --gzip SRR7989781
+fastq-dump --split-files --gzip SRR7989782
+fastq-dump --split-files --gzip SRR7989783
+fastq-dump --split-files --gzip SRR7989784
+fastq-dump --split-files --gzip SRR7989785
+fastq-dump --split-files --gzip SRR7989786
+fastq-dump --split-files --gzip SRR7989787
+fastq-dump --split-files --gzip SRR7989788
+fastq-dump --split-files --gzip SRR7989789
